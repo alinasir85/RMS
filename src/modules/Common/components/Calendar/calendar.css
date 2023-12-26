@@ -1,0 +1,13 @@
+
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    border-color: var(--i2c-color-neutral-200);
+    border-radius: var(--i2c-border-radius-medium);
+    border-width: 1px;
+    padding: var(--i2c-spacing-large);
+}
+.datePicker{
+    color: #46B0E6;
+    text-decoration: underline;
+    cursor: pointer;
+}

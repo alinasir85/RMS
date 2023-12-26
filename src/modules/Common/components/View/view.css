@@ -1,0 +1,62 @@
+/**/
+/* .highchart-container{
+    height: 250px;
+} */
+
+/*filter */
+.chartFilter {
+    margin-bottom: 10px;
+}
+
+.chartFilter select {
+    background-color: transparent;
+    border: none;
+}
+
+.chartFilter select option {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.chartFilter select option:hover {
+    background-color: #46B0E6;
+}
+
+.chartFilter select option:focus {
+    background-color: #46B0E6;
+}
+
+/*Chart Heading*/
+.chartFilter span{
+    margin: auto 5px;
+}
+.blue {
+    width: 10px;
+    height: 10px;
+    background-color: #46B0E6;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.red {
+    width: 10px;
+    height: 10px;
+    background-color: #EE4723;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.black {
+    width: 10px;
+    height: 10px;
+    background-color: #666666;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}

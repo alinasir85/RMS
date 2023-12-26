@@ -1,0 +1,127 @@
+/** Table with DIV's **/
+.table-wrapper {
+    /* padding: 50px; */
+    font-size: 13px;
+    line-height: 17px;
+    box-sizing: border-box;
+}
+.sticky-table .table {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ECEEF1;
+}
+.sticky-table .table .tbody {
+    width: calc(100% - 450px);
+    overflow-x: auto;
+}
+.sticky-table .table .tbody .tr, .table .tfooter .tr {
+    display: flex;
+}
+.sticky-table .table .tr .td, .table .tr .th {
+    min-width: 151px;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #222;
+    /* border-right: 1px solid #ddd; */
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.sticky-table .tbody > .tr > .td:last-child {
+    border-right: 0;
+}
+.sticky-table .table .thead .tr .td,
+.sticky-table .table .tbody .tr .td,
+.sticky-table .table .tfooter .tr .td {
+    min-height: 90px;
+}
+.sticky-table .table .tr .td {
+    border: 1px solid #ECEEF1;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .sticky-table .table {
+        overflow-x: auto;
+    }
+    .sticky-table .table .tbody {
+        width: inherit;
+        overflow-x: unset;
+    }
+}
+
+
+/* **************************************** */
+
+
+.sticky-table .table .thead .tr .th,
+.sticky-table .table .tbody .tr .th,
+.sticky-table .table .tfooter .tr .th {
+    background-color: #F7F8F9;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    font-weight: bold;
+    border-right: 0;
+    justify-content: center;
+}
+.sticky-table .table .tr.leave-row {
+    background: #FFEEEA;
+}
+.sticky-table .table .tbody .tr.leave-row .td {
+    color: #EE4723;
+}
+.sticky-table .table .tr.no-shift-row {
+    background: #F4F4F7;
+}
+.sticky-table .table .tbody .tr.no-shift-row .td {
+    color: #666;
+}
+.sticky-table .table .tr .scheduled-hours-cell {
+    background: #E9F7FF;
+}
+
+.sticky-table .table .tr .paid-timeoff-cell {
+    background: rgba(147, 240, 182, 0.2);
+}
+.sticky-table .table .tr .flex-hours-cell {
+    background: #fdf5ea;
+}
+.sticky-table .table .tr .unpaid-timeoff-approved-cell {
+    background: rgba(123, 144, 254, 0.1);
+}
+.sticky-table .table .tr .unpaid-timeoff-pending-cell,
+.sticky-table .table .tr .occurence-cell {
+    background: #FFEEEA;
+}
+.sticky-table .right-shadow-cell {
+    border-right: 1px solid #ECEEF1 !important;
+}
+.sticky-table .right-shadow-cell:after, 
+.sticky-table .right-shadow-cell:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    box-shadow: 2px 0 6px 2px rgb(141 144 172 / 20%);
+    z-index: 1;
+}
+.sticky-table .left-shadow-cell {
+    border-left: 1px solid #ECEEF1 !important;
+}
+.sticky-table .left-shadow-cell:after, 
+.sticky-table .left-shadow-cell:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    box-shadow: -2px 0 6px 2px rgb(141 144 172 / 20%);
+    z-index: 1;
+}

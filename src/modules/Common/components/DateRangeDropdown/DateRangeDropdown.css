@@ -1,0 +1,93 @@
+.dateranger-picker-opener::part(base),
+.dateranger-picker-opener::part(base):hover {
+    background: #fff;
+    border:0;
+}
+.daterange-picker-collapsed {
+    display: none;;
+}
+.daterange-picker:not(.daterange-picker-collapsed) {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0px 3px 10px 3px rgb(0 0 0 / 15%);
+}
+.daterange-picker i2c-button.active::part(base) {
+    background: #46B0E6;
+    color: #fff;
+    border-color: #46B0E6;
+}
+.daterange-picker .border-0::part(base) {
+    border: 0;
+}
+.daterange-picker:not(.daterange-picker-collapsed)::before {
+    content: '';
+    background: #fff;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+    right: 40px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.daterange-picker-header-text {
+    border: 1px solid #46B0E6;
+    border-radius: 3px;
+}
+
+.daterange-picker:not(.daterange-picker-collapsed) .rdrDateDisplayWrapper {
+    background-color: #fff;
+}
+
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper,
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrMonths .rdrMonth {
+    width: 100%;
+}
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrDateDisplayWrapper {
+    display: none;
+}
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrMonthAndYearWrapper > .rdrNextPrevButton {
+    margin: 0;
+}
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrMonths > .rdrMonth {
+    padding-left: 0;
+    padding-right: 0;
+}
+span.rdrStartEdge,
+span.rdrEndEdge {
+    border-radius: 1.042em;
+}
+span.rdrStartEdge:before {
+    content: '';
+    background: rgba(70, 176, 230, 0.2);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 1.042em;
+    border-bottom-left-radius: 1.042em;
+}
+
+span.rdrEndEdge:before {
+    content: '';
+    background: rgba(70, 176, 230, 0.2);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-right-radius: 1.042em;
+    border-bottom-right-radius: 1.042em;
+}
+span.rdrInRange {
+    background: rgba(70, 176, 230, 0.2);
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+    color: #666
+}

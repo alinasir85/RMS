@@ -1,0 +1,320 @@
+.component-container {
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(141, 144, 172, 0.1);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.component-header {
+    padding: 16px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.component-header h2 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.component-header .component-header-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.switch-container {
+    border-radius: 5px;
+    border: 1px solid #F5F5FA;
+    padding: 2px;
+    display: inline-block;
+}
+
+.switch-container button {
+    padding: 9px 10px;
+    border-radius: 5px;
+    color: #8E90AA;
+}
+
+.switch-container button:disabled {
+    color: #242A41;
+    background: none;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+}
+
+
+/*Status Style*/
+.statusPending {
+    background: rgba(239, 152, 41, 0.1);
+    border-radius: 19px;
+    border: 1px solid transparent;
+    position: relative;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #EF9829;
+    padding: 4px 15px;
+}
+
+.statusApproved {
+    background: rgba(50, 210, 150, 0.1);
+    border-radius: 19px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #32D296;
+    padding: 4px 10px;
+}
+
+.statusPartial-Approved {
+    background: rgba(70, 176, 230, 0.1);
+    border-radius: 19px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #46B0E6;
+    padding: 4px 10px;
+}
+
+.statusReject {
+    background: rgba(238, 71, 35, 0.1);
+    border-radius: 19px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #EE4723;
+    padding: 4px 10px;
+}
+
+.statusoptin {
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    background-color: #46B0E6;
+    padding: 4px 10px;
+}
+
+/*component Footer*/
+.component-footer {
+    background-color: #ffffff;
+    border: 1px solid #F0F0F0;
+    padding: 25px;
+    display: flex;
+}
+
+/*Dispute Grid*/
+.grid-container {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.component-grid {
+    background: #FFFFFF;
+    border: 1px solid rgba(232, 232, 238, 0.75);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin: 0 10px 20px;
+    padding: 24px;
+}
+
+
+.component-grid-td h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.hourCalendar {
+    background: #F9F9F9;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+    display: block;
+}
+
+.hourCalendar span {
+    display: block;
+    background: #F1F1F1;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #999999;
+    padding: 7px 0 4px;
+    margin-top: 3px;
+    border-radius: 0 0 5px 5px;
+}
+
+/**/
+.button:disabled {
+    background: rgba(70, 176, 230, 0.12);
+    border: none;
+    color: #46B0E6;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*Display Hidden On sub table*/
+.hidden {
+    display: none;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+}
+
+.table-header {
+    border: 1px solid #ECEEF1;
+    border-right-color: rgb(236, 238, 241);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: rgb(236, 238, 241);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.table-header th {
+    text-align: left;
+    color: #000000;
+    padding: 13px 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    background: #FFFFFF;
+}
+
+.parent-row:nth-child(2n+1) {
+    background: #fff;
+}
+
+.parent-row:nth-child(4n+1) {
+    background: #FAFAFC;
+    border: solid #EFF0F5;
+    border-width: 1px 0;
+}
+
+tbody tr td {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 13px 16px;
+    color: #242A41;
+}
+
+tbody tr:nth-child(4n+2) {
+    background: #FAFAFC;
+}
+
+.iHsyUp .table.sticky.child-table {
+    width: 100% !important;
+}
+
+.table.sticky.child-table.approved .header {
+    background: #EEEEEE;
+}
+
+.table.sticky.child-table .tr .th {
+    background: #EEEEEE !important;
+    width: 16.7% !important;
+}
+
+.table.sticky.child-table .header .tr,
+.table.sticky.child-table .body .tr {
+    display: flex !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.table.sticky.child-table .header .tr .th:first-child,
+.table.sticky.child-table .body .tr .td:first-child {
+    display: none !important;
+}
+
+.table.sticky.child-table .header .tr .th {
+    padding: 11px 20px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.table.sticky.child-table .body {
+    background: #ffffff;
+}
+
+.table.sticky.child-table .body .tr .td {
+    padding: 20px 20px;
+    border-bottom: none;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.table.sticky.child-table .body .tr:first-child {
+    border-top: none;
+}
+
+.table.sticky.child-table .body .tr {
+    border-top: 1px solid #F0F0F0;
+}
+
+.parent-row svg {
+    margin: 0 3px;
+}
+
+.parent-row svg path {
+    cursor: pointer;
+    stroke: #666;
+}
+
+.parent-row svg:hover path,
+.parent-row svg:focus path,
+.parent-row svg:active path {
+    stroke: #000;
+}
+
+.switch-mode {
+    border-radius: 5px;
+    padding: 2px;
+    display: inline-block;
+}
+
+.switch-mode button {
+    padding: 9px 10px;
+    margin-right: -5px;
+    border-radius: 5px;
+    color: #8E90AA;
+    background: #FFFFFF;
+    border: 1px solid #ECEEF1;
+}
+
+.switch-mode button:disabled {
+    margin-right: -5px;
+    color: #242A41;
+    background: #F7F8F9;
+    border: 1px solid #ECEEF1;
+}

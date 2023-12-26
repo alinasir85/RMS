@@ -1,0 +1,13 @@
+.not-same-day {margin-bottom: 47px;}
+.not-same-day li .times{display: flex; align-items: end;margin-bottom: 24px;}
+.not-same-day li .days div{width: 44px;    height: 48px;    display: flex;    flex-direction: column;    align-items: center; justify-content: center; font-size: 13px; line-height: 16px; text-align: center; color: #46B0E6; margin-right: 32px;border:1px solid #46B0E6;border-radius: 5px; cursor: pointer;}
+.not-same-day li.inactive .days div{display: block;width: 44px;    height: 48px;    display: flex;    flex-direction: column;    align-items: center; justify-content: center; font-size: 13px; line-height: 16px; text-align: center; color: #201D1E; padding: 0 10px; margin-right: 32px;border:1px solid #E8E8EE;border-radius: 5px; cursor: auto; opacity: 0.5;}
+.not-same-day li .calculatedTime {font-weight: 400;font-size: 13px;line-height: 18px;color: #666666; pointer-events: none; white-space: nowrap; }
+.not-same-day .updatedFontSize{ font-size: 10px;    line-height: 12px;}
+.not-same-day .css-1d3z3hw-MuiOutlinedInput-notchedOutline { border: none; border-bottom: 1px solid #D8DDE4; border-radius: 0;        }
+.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{padding: 0!important;}
+/* .not-same-day .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{   } */
+.not-same-day .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{transform: translate(0px, -17px) scale(0.75);}
+.not-same-day .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {    color:#46B0E6;   }
+   
+.not-same-day .start-time {    width: 280px;    margin-right: 32px;  }

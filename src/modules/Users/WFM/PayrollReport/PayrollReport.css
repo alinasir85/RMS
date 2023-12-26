@@ -1,0 +1,9 @@
+.PayrollReport{
+    width: 95%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(141, 144, 172, 0.1);
+    border-radius: 5px;
+    padding: 22px 25px 0;
+    min-height: 363px;
+    float: right;
+}

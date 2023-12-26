@@ -1,0 +1,32 @@
+
+.sameDay{margin-bottom: 60px;}
+.sameDay ul {display:flex; margin-bottom: 72px;}
+.sameDay ul li{font-size: 13px; line-height: 16px; color: #201D1E;  margin-right: 16px;border: 1px solid #E8E8EE; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);border-radius: 5px; cursor: pointer;width: 40px; height: 40px;    display: flex;    justify-content: center;    align-items: center;}
+.sameDay ul li.active-li{color: #46B0E6; border:1px solid #46B0E6;}
+.sameDay ul li.inactive-li{font-size: 13px;    line-height: 16px;             color: #201D1E;        opacity: 0.5;    border: 1px solid #E8E8EE; pointer-events: none;}
+
+.sameDay .css-1d3z3hw-MuiOutlinedInput-notchedOutline { border: none; border-bottom: 1px solid #D8DDE4; border-radius: 0;        }
+
+.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{padding: 0!important;}
+.sameDay .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{top: -19px;    }
+.sameDay .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{transform: translate(0px, -17px) scale(0.75);}
+.sameDay .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {    color:#46B0E6;   }
+
+
+.sameDay .start-time{width: 280px; margin-right: 45px;}
+
+
+.sameDay .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{width: 100%; }
+
+
+.sameDaybuttons i2c-button {    margin-right: 18px;  }
+
+
+.shiftHoursDef .start-time .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.Mui-focused.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{transform: none !important; top: -30px;}
+
+.shiftHoursDef .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{transform: none !important; top: -30px;}
+
+.shiftHoursDef  .start-time .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.MuiFormLabel-filled.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{left:0}
+
+
+.shiftHoursDef label[data-shrink="false"] + .MuiInputBase-formControl .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input::placeholder {opacity: 0.5 !important;}

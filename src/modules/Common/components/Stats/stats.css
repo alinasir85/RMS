@@ -1,0 +1,34 @@
+/*Stats*/
+.stats .component-container{
+    padding: 22px 25px 60px;
+    min-height: 363px;
+}
+
+.stats .component-header p span{
+   display: inline-block;
+}
+.stats-cards {
+    display: flex;
+}
+
+.card-basic::part(base){
+  border: var(--i2c-base-no-border);
+  box-shadow: var(--i2c-base-no-boxshadow);
+}
+
+.card-basic span{
+    background: rgba(235, 239, 244, 0.5);
+    border: 1px solid #E3E7ED;
+    border-radius: 100px;
+    color: #201D1E;
+    padding: 5px 15px;
+}
+.card-basic {
+    width: 90%;
+    min-height:197px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+

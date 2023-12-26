@@ -1,0 +1,12 @@
+.table-head{
+    background-color: #EEEEEE;
+}
+
+.table-head th{
+    padding: 10px;
+}
+
+.component-container tbody .table-data{
+    background-color: #fff;
+    border-bottom: 1px solid #F0F0F0;
+}

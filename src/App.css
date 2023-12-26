@@ -1,0 +1,168 @@
+@import url('https://webcomponents-qa.mycardplace.com/dist/themes/light.css');
+* {
+    box-sizing: border-box;
+}
+.HelveticaNeueLTStd-Lt{
+    font-family: HelveticaNeueLTStd-Lt;
+}
+.HelveticaNeueLTStd-Roman{
+    font-family: HelveticaNeueLTStd-Roman;
+}
+.HelveticaNeueLTStd-Md {
+    font-family: HelveticaNeueLTStd-Md;
+}
+.HelveticaNeueLTStd-Bd {
+    font-family: HelveticaNeueLTStd-Bd;
+}
+
+html, body {
+    font-family: HelveticaNeueLTStd-Roman;
+    height:100%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    background: #F5F5FA;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight:normal;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.h1, h1 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #201D1E;
+}
+p {
+    font-size: 13px;
+    line-height: 16px;
+    color: #333;
+}
+
+.pending::part(base) {
+    background: rgba(123, 144, 254, 0.1);
+    color: #7B90FE;
+    border-radius: 19px;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 5px 15px;
+}
+
+.approved::part(base) {
+    background: rgba(3, 192, 74, 0.1);
+    color: #03C04A;
+    border-radius: 19px;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 5px 15px;
+}
+
+.rejected::part(base) {
+    background: rgba(238, 71, 35, 0.1);
+    color: #EE4723;
+    border-radius: 19px;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 5px 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.app-container {
+    padding-top: 70px;
+    padding-left: 60px;
+}
+#main {
+    display: flex;
+}
+.page-content {
+    width: 100%;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .app-container {
+        padding-top: 65px;
+        padding-left: 80px;
+    }
+    .h1, h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media (min-width: 1200px) {
+    .app-container {
+        padding-left: 100px;
+    }
+}
+
+/* Grid */
+.col-70 {
+    width: 70%;
+    display: inline-block;
+}
+
+.col-50 {
+    width: 50%;
+    display: inline-block;
+}
+
+.col-45 {
+    width: 45%;
+    display: inline-block;
+}
+
+.col-30 {
+    width: 30%;
+    display: inline-block;
+}
+
+.col-25 {
+    width: 25%;
+    display: inline-block;
+}

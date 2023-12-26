@@ -1,0 +1,9 @@
+.SupervisorFlexPromotion tbody tr:nth-child(4n+2){
+    background: #FFFFFF;
+}
+
+.SupervisorFlexPromotion tbody tr:nth-child(2n+2){
+    background: #FAFAFC;
+    border: solid #EFF0F5;
+    border-width: 1px 0;
+}

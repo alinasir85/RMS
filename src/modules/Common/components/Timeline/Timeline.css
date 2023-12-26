@@ -1,0 +1,27 @@
+.rct-item { border-radius: 0px !important; text-align: center; }
+.rct-item[title="Accual Hour"]{ background: #46B0E6 !important; border-color: #46B0E6 !important;}
+.rct-item[title="Available"]{ background: #EF9829 !important; border-color: #EF9829 !important;}
+.rct-item[title="Off Time"]{background:#EE4723 !important; border-color: #EE4723 !important;}
+.react-calendar-timeline .rct-header-root{ background: #ccc;}
+.react-calendar-timeline .rct-item .rct-item-content{ text-indent: -9999px;}
+.react-calendar-timeline .rct-vertical-lines .rct-vl,
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-even, 
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-odd{ border-color:#000; border-width:1px; }
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row{
+    background: #fff !important;
+    text-align: center;
+}
+.rct-calendar-header > div{ height: 52px !important;}
+/** Filter List **/
+.filter-list{ margin: 0; padding: 20px 0; list-style: none;  justify-content: center; display: flex;}
+.filter-list li{ position: relative;}
+.filter-list li a{ text-decoration: none; color: #666; padding: 0 15px;}
+.filter-list li:before{ display: block; content: ''; clear: both; position: absolute; left: 0; top: 50%; 
+    transform: translateY(-50%); border: 2px solid #fff; width: 10px; height: 10px; border-radius: 100%; } 
+.filter-list li.actual:before{ background: #46B0E6;}
+.filter-list li.break:before{ background: #66C4F5;}
+.filter-list li.occurrencies:before{ background: #F06041;}
+.filter-list li.flex:before{ background: #EF9829;}
+.filter-list li.paidtime:before{ background: #03C04A ;}
+.filter-list li.unpaidtime:before{ background: #F3795F;}
+.filter-list li.unpaidtimeappr:before{ background: #875BF7;}

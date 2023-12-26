@@ -1,0 +1,14 @@
+/* .request-time-off tbody tr:nth-child(2n+2) {
+    background: #FAFAFC;
+    border: solid #EFF0F5;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-width: 1px 0;
+}
+
+.request-time-off tbody .component-grid-tr:nth-child(2n+2) {
+    background: #ffffff;
+    border: none;
+} */
